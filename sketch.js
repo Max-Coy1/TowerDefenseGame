@@ -1,9 +1,3 @@
-function setup() {
-  createCanvas(400, 400);
-}
-
-function draw() {
-  background(220);
-  
-  circle(30, 30, 20)
-}
+const canvas = document.getElementId('canvas1');
+const ctx = canvas.getContext('2d');
+console.log(canvas);
